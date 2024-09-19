@@ -25,23 +25,26 @@ public class Game {
         Referee referee = new Referee();
 
         // create players team A
+        //TODO create 4 defender players for teamA  
         Goalkeeper goalkeeperA = new Goalkeeper();
-        Defender defender1 = new Defender();
-        Defender defender2 = new Defender();
-        Defender defender3 = new Defender();
-        Defender defender4 = new Defender();
-        Defender defender5 = new Defender();
-
-
-        //TODO create 4 defender players for teamA                
+        Defender defenderA1 = new Defender();
+        Defender defenderA2 = new Defender();
+        Defender defenderA3 = new Defender();
+        Defender defenderA4 = new Defender();
+              
         //TODO create midfielder players for teamA
+        Midfielder didfielderA1 = new Midfielder();
+        
         //TODO 2 forward players for teamA
+        Forward forwardA1 = new Forward();
+        Forward forwardA2 = new Forward();
         
         //TODO create coach team A
-        
+        Coach coachA = new Coach();
         
         // create players team B
         Goalkeeper goalkeeperB = new Goalkeeper();        
+        
         //TODO create 4 defender players for teamB                
         //TODO create midfielder players for teamB
         //TODO 2 forward players for teamB
