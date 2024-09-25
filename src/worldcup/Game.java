@@ -15,7 +15,11 @@ public class Game {
     //Field field;
     int size;
     ArrayList<Team> teams;
-
+    
+    public Game() {
+        this.teams = new ArrayList<>();
+    }
+    
     public static void main(String[] args) {
         int variableMethod;
         
@@ -77,14 +81,26 @@ public class Game {
         teamB.addPlayer(forwardB1); teamB.addPlayer(forwardB2);
         
         //TODO add teams to match
+        Game game = new Game();
+        game.teams.add(teamA);
+        game.teams.add(teamB);
         
         // start game
+        game.startGame();
         // half time game
+        game.halfTime();
         // end game
+        game.endGame();
     }
 
-    public void start() {
-        System.out.println("starting");
+    public void startGame() {
+        System.out.println("Start the game");
+    }
+    public void halfTime() {
+        System.out.println("Half time");
+    }
+    public void endGame() {
+        System.out.println("End of the game");
     }
 
     
