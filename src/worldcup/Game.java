@@ -42,12 +42,22 @@ public class Game {
         
         // create players team B
         Goalkeeper goalkeeperB = new Goalkeeper();        
-        //TODO create 4 defender players for teamB                
+        
+        //TODO create 4 defender players for teamB 
+        Defender defenderB1 = new Defender();
+        Defender defenderB2 = new Defender();
+        Defender defenderB3 = new Defender();
+        Defender defenderB4 = new Defender();
+        
         //TODO create midfielder players for teamB
+        Midfielder midfielderB1 = new Midfielder();
+        
         //TODO 2 forward players for teamB
+        Forward forwardB1 = new Forward();
+        Forward forwardB2 = new Forward();
         
         //TODO create coach team B
-        
+        Coach coachB = new Coach();
         
         //TODO create teams
         //Team teamA = new Team();      
