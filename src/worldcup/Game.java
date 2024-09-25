@@ -33,7 +33,7 @@ public class Game {
         Defender defenderA4 = new Defender();
               
         //TODO create midfielder players for teamA
-        Midfielder didfielderA1 = new Midfielder();
+        Midfielder midfielderA1 = new Midfielder();
         
         //TODO 2 forward players for teamA
         Forward forwardA1 = new Forward();
