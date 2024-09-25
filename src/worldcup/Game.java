@@ -62,9 +62,20 @@ public class Game {
         Coach coachB = new Coach();
         
         //TODO create teams
-        //Team teamA = new Team();      
+        Team teamA = new Team();  
+        Team teamB = new Team();
+        
         //TODO add players to teams
-        //teamA.add(player);
+        teamA.addPlayer(goalkeeperA);
+        teamA.addPlayer(defenderA1); teamA.addPlayer(defenderA2); teamA.addPlayer(defenderA3); teamA.addPlayer(defenderA4);
+        teamA.addPlayer(midfielderA1);
+        teamA.addPlayer(forwardA1); teamA.addPlayer(forwardA2);
+        
+        teamB.addPlayer(goalkeeperB);
+        teamB.addPlayer(defenderB1); teamB.addPlayer(defenderB2); teamB.addPlayer(defenderB3); teamB.addPlayer(defenderB4);
+        teamB.addPlayer(midfielderB1);
+        teamB.addPlayer(forwardB1); teamB.addPlayer(forwardB2);
+        
         //TODO add teams to match
         
         // start game
